@@ -1,0 +1,54 @@
+# ==========================================
+# ⚙️ Системные файлы и кэш IDE
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+
+# ==========================================
+# 🦀 Бэкенд (C++)
+# ==========================================
+# Исполняемый файл сервера
+backend/exam_server
+
+# Объектные файлы и зависимости сборки
+backend/src/*.o
+backend/src/*.d
+backend/*.o
+backend/*.d
+
+# Временные файлы компилятора и дампы
+*.out
+*.exe
+*.app
+
+# Если сторонние библиотеки скачиваются динамически (опционально)
+# backend/third_party/*
+# !backend/third_party/.gitkeep
+
+# ==========================================
+# 🌐 Фронтенд (React / Node.js)
+# ==========================================
+# Зависимости Node.js
+frontend/node_modules/
+frontend/.pnpm-store/
+
+# Результат финальной сборки фронтенда
+frontend/dist/
+frontend/build/
+
+# Локальные переменные окружения
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Логи npm / vite
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+backend/data/questions.json
+backend/data/students.json
