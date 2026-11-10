@@ -52,6 +52,11 @@
 ## 💻 Установка и запуск
 
 ### 1. Клонирование и подготовка списков
+
+```bash
+git clone https://github.com/Tsygankova-Maria/Exam_Assistant.git
+```
+
 Если вы переносите проект, убедитесь, что файлы `backend/data/questions.json` и `backend/data/students.json` заполнены вашими актуальными данными в формате JSON-массивов.
 
 ---
